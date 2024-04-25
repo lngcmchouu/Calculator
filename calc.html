@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='calc.css'>
+  <script src='calc.js'></script>
+</head>
+<body>
+  <div id="calc">
+    <input id="display" readonly>
+    <div id="keys">
+      <button onclick="clearAll()" class="active">AC</button> 
+      <button onclick="clearLast()" class="active">C</button>
+      <button onclick="opposite()" class="active">+/-</button>    
+      <button onclick="add('/')" class="active">/</button>
+      <button onclick="add('7')">7</button>
+      <button onclick="add('8')">8</button>
+      <button onclick="add('9')">9</button>
+      <button onclick="add('*')" class="active">x</button>
+      <button onclick="add('4')">4</button>
+      <button onclick="add('5')">5</button>
+      <button onclick="add('6')">6</button>
+      <button onclick="add('-')" class="active">-</button>
+      <button onclick="add('1')">1</button>
+      <button onclick="add('2')">2</button>
+      <button onclick="add('3')">3</button>
+      <button onclick="add('+')" class="active">+</button>
+      <button onclick="per()" >%</button>
+      <button onclick="add('0')">0</button>
+      <button onclick="add('.')">.</button>
+      <button onclick="calc()" class="active">=</button>
+    </div>
+  </div>
+</body>
+</html>
